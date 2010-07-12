@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Format Strings</string>
+
+	<string name="namehint">Name your kin</string>
+	<string name="careerhint">Pick a career</string>
+	<string name="diseasehint">Catch a disease</string>
+	<string name="buttontext">Show Format Strings</string>
+		
+	<string name="meatShootingMessage">You shot %1$d pounds of meat!</string>
+
+	<string name="kinSurvivalMessage">%1$d of %2$d family members survived the journey.
+	</string>
+
+	<string name="careerMessage">You are playing as %1$s.</string>
+	<string name="banker">a banker</string>
+	<string name="carpenter">a carpenter</string>
+	<string name="developer">an Android developer</string>
+	
+	<string name="heckle">" (good luck, geek!)"</string>
+	<string-array name="careers">
+		<item>@string/banker</item>
+		<item>@string/carpenter</item>
+		<item>@string/developer</item>
+	</string-array>
+
+
+	<string name="diseaseMessage">%1$s has %2$s!</string>
+	<string name="diseaseMessage2">%2$s has killed %1$s!</string>
+
+	<string name="disease1">Typhoid</string>
+	<string name="disease2">Lyme Disease</string>
+	<string name="disease3">Carpal Tunnel</string>
+
+
+	<string-array name="diseases">
+		<item>@string/disease1</item>
+		<item>@string/disease2</item>
+		<item>@string/disease3</item>
+	</string-array>
+
+</resources>

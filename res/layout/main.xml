@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:scrollbars="vertical">
+	
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_height="fill_parent">
+
+		<EditText android:id="@+id/EditTextName"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:hint="@string/namehint"></EditText>
+
+		<Spinner android:id="@+id/SpinnerCareer"
+			android:layout_height="wrap_content" android:prompt="@string/careerhint"
+			android:layout_width="fill_parent" android:entries="@array/careers"></Spinner>
+
+		<Spinner android:id="@+id/SpinnerDisease"
+			android:layout_height="wrap_content" android:prompt="@string/diseasehint"
+			android:layout_width="fill_parent" android:entries="@array/diseases"></Spinner>
+
+		<Button android:id="@+id/ButtonFormatStrings"
+			android:layout_height="wrap_content" android:text="@string/buttontext"
+			android:onClick="formatStrings" android:layout_width="fill_parent"></Button>
+
+
+		<TextView android:id="@+id/TextView_Career"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+			
+		<TextView android:id="@+id/TextView_Shoot"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>		
+			
+		<TextView android:id="@+id/TextView_Disease1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>		
+	
+		<TextView android:id="@+id/TextView_Disease2"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>		
+		
+		<TextView android:id="@+id/TextView_Survival"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>		
+					
+	</LinearLayout>
+</ScrollView>
