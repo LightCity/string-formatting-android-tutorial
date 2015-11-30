@@ -1,0 +1,1 @@
+This project provides the code for an Android tutorial on string formatting.
